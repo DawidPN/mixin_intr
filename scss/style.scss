@@ -1,0 +1,13 @@
+@mixin frame($p-color: green, $p-thickess: 1px, $p-type: solid, ) {
+    border-color: $p-color;
+    border: $p-thickess;
+    border-style: $p-type;
+}
+
+div {
+    @include frame;
+}
+
+p {
+    @include frame(red, 4px, dotted);
+}

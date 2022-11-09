@@ -1,0 +1,13 @@
+div {
+  border-color: green;
+  border: 1px;
+  border-style: solid;
+}
+
+p {
+  border-color: red;
+  border: 4px;
+  border-style: dotted;
+}
+
+/*# sourceMappingURL=style.css.map */
